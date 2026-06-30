@@ -1,10 +1,11 @@
 import './App.css'
+import { Contact } from './sections/Contact'
 
 function App() {
 
   return (
     <>
-      <h1 className='text-3xl font-bold underline'>Title</h1>
+      <div className='hidden'>
       adamkeyes
 
   Nice to meet you! I'm Adam Keyes.
@@ -77,8 +78,9 @@ function App() {
 
   Send message
 
-  adamkeyes
-
+        adamkeyes</div>
+      
+    <Contact />
     </>
   )
 }
