@@ -13,9 +13,8 @@ export const Form = () => {
         id="email"
         placeholder="EMAIL"
       />
-      <input
-        className="border-b border-white text-heading-s placeholder:text-white/50 py-10 px-4"
-        type="text"
+      <textarea
+        className="border-b border-white text-heading-s placeholder:text-white/50 px-4 py-3 h-26 resize-none"
         id="message"
         placeholder="MESSAGE"
       />
