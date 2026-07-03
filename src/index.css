@@ -11,31 +11,24 @@
     --color-red: #ff6f5b;
 
     --text-heading-xl: 88px;
-    --text-heading-xl-line-height: 88px;
-    --text-heading-xl-weight: 700;
-    --text-heading-xl-letter-spacing: -2.5px;
+    --text-heading-xl--line-height: 88px;
+    --text-heading-xl--font-weight: 700;
+    --text-heading-xl--letter-spacing: -2.5px;
 
     --text-heading-l: 48px;
-    --text-heading-l-line-height: 56px;
-    --text-heading-l-weight: 700;
-    --text-heading-l-letter-spacing: -1.5px;
+    --text-heading-l--line-height: 56px;
+    --text-heading-l--font-weight: 700;
+    --text-heading-l--letter-spacing: -1.5px;
 
     --text-heading-m: 24px;
-    --text-heading-m-line-height: 32px;
-    --text-heading-m-weight: 700;
+    --text-heading-m--line-height: 32px;
+    --text-heading-m--font-weight: 700;
 
     --text-body-l: 18px;
-    --text-body-l-line-height: 28px;
-    --text-body-l-weight: 500;
-}
+    --text-body-l--line-height: 28px;
+    --text-body-l-font--weight: 500;
 
-@font-face {
-    font-family: "Space Grotesk";
-    src: url("../assets/fonts/SpaceGrotesk-VariableFont_wght.ttf")
-        format("truetype");
-    font-weight: 100 900;
-    font-style: normal;
-    font-display: swap;
+    --text-heading-s: 16px;
 }
 
 @layer base {
