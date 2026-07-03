@@ -1,39 +1,46 @@
 @import "tailwindcss";
 
 @theme {
+    --font-space-grotesk: "Space Grotesk", sans-serif;
 
-  --font-space-grotesk: 'Space Grotesk', sans-serif;
+    --color-dark: #151515;
+    --color-dark-gray: #242424;
+    --color-green: #4ee1a0;
+    --color-gray: #d9d9d9;
+    --color-white: #ffffff;
+    --color-red: #ff6f5b;
 
-  --color-dark: #151515;
-  --color-dark-gray: #242424;
-  --color-green: #4ee1a0;
-  --color-gray: #d9d9d9;
-  --color-white: #ffffff;
-  --color-red: #FF6F5B;
+    --text-heading-xl: 88px;
+    --text-heading-xl-line-height: 88px;
+    --text-heading-xl-weight: 700;
+    --text-heading-xl-letter-spacing: -2.5px;
 
-  --text-heading-xl: 88px;
-  --text-heading-xl-line-height: 88px;
-  --text-heading-xl-weight: 700;
-  --text-heading-xl-letter-spacing: -2.5px;
+    --text-heading-l: 48px;
+    --text-heading-l-line-height: 56px;
+    --text-heading-l-weight: 700;
+    --text-heading-l-letter-spacing: -1.5px;
 
-  --text-heading-l: 48px;
-  --text-heading-l-line-height: 56px;
-  --text-heading-l-weight: 700;
-  --text-heading-l-letter-spacing: -1.5px;
+    --text-heading-m: 24px;
+    --text-heading-m-line-height: 32px;
+    --text-heading-m-weight: 700;
 
-  --text-heading-m: 24px;
-  --text-heading-m-line-height: 32px;
-  --text-heading-m-weight: 700;
+    --text-body-l: 18px;
+    --text-body-l-line-height: 28px;
+    --text-body-l-weight: 500;
+}
 
-
-  --text-body-l: 18px;
-  --text-body-l-line-height: 28px;
-  --text-body-l-weight: 500;
+@font-face {
+    font-family: "Space Grotesk";
+    src: url("../assets/fonts/SpaceGrotesk-VariableFont_wght.ttf")
+        format("truetype");
+    font-weight: 100 900;
+    font-style: normal;
+    font-display: swap;
 }
 
 @layer base {
-  body,
-  html {
-    @apply font-space-grotesk text-body-l text-white bg-dark;
+    body,
+    html {
+        @apply font-space-grotesk text-body-l text-white bg-dark box-border;
     }
 }
