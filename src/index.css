@@ -26,9 +26,11 @@
 
     --text-body-l: 18px;
     --text-body-l--line-height: 28px;
-    --text-body-l-font--weight: 500;
+    --text-body-l--font-weight: 500;
 
     --text-heading-s: 16px;
+    --text-body-s--line-height: 28px;
+    --text-body-s--font-weight: 500;
 }
 
 @layer base {
