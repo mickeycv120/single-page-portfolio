@@ -2,8 +2,8 @@ import { Form } from "../components/Form";
 
 export const Contact = () => {
   return (
-    <section className="bg-dark-gray grid grid-cols-2 gap-48 px-30 py-16 min-w-screen">
-      <div className="items-center justify-center">
+    <section className="relative bg-dark-gray grid grid-cols-2 gap-48 px-30 py-16 min-w-screen">
+      <div className="flex flex-col items-center justify-between">
         <div className="flex flex-col col-span-1 gap-7">
           <h1 className="text-heading-xl font-bold">Contact</h1>
           <p className="text-body-l text-gray tracking-normal leading-6.5">
@@ -11,8 +11,8 @@ export const Contact = () => {
             fill in the form, and I'll get back to you as soon as possible.
           </p>
         </div>
-        <div>
-          <img src="src/assets/images/pattern-rings.svg" alt="ring" />
+        <div className="">
+          <img src="src/assets/images/pattern-rings.svg" alt="ring" className="w-[270px] h-[130px] object-none object-right" />
         </div>
       </div>
 
