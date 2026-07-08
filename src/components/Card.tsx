@@ -1,9 +1,4 @@
-type Project = {
-  id: number;
-  image: string;
-  title: string;
-  skills: string[];
-};
+import type { Project } from "../types/project-type";
 
 type CardProps = {
   project: Project;
