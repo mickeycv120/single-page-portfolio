@@ -1,5 +1,6 @@
 import "./App.css";
 import { Contact } from "./sections/Contact";
+import { Projects } from "./sections/Projects";
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
         showcase HTML CSS JavaScript View project View code Contact Name Email
         Message Send message adamkeyes
       </div>
-
+      <Projects />
       <Contact />
     </main>
   );

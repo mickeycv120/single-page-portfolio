@@ -38,4 +38,20 @@
     html {
         @apply font-space-grotesk text-body-l text-white bg-dark box-border;
     }
+
+    h1 {
+        @apply text-heading-xl font-bold;
+    }
+
+    p {
+        @apply text-body-l text-gray;
+    }
+
+    button {
+        @apply border-b-2 border-green pb-1 mt-5 text-heading-s;
+    }
+
+    button:hover {
+        @apply text-green;
+    }
 }
