@@ -1,3 +1,4 @@
+import { socialLinks } from "../constants/socialLinks";
 import { Form } from "../components/Form";
 
 export const Contact = () => {
@@ -37,7 +38,14 @@ export const Contact = () => {
               adamkeyes
             </a>
             <ul className="flex gap-5">
-              {<li><a></a></li>}
+              {socialLinks.map((link) => (
+                <li key={link.id}>
+                  <a href={link.link} aria-label={link.name}>
+                    {link.icon}
+                  </a>
+                </li>
+              )
+              )}
             </ul>
           </div>
         </div>
