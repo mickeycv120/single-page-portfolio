@@ -37,18 +37,7 @@ export const Contact = () => {
               adamkeyes
             </a>
             <ul className="flex gap-5">
-              <li>
-                <img src="src/assets/images/icon-github.svg" />
-              </li>
-              <li>
-                <img src="src/assets/images/icon-frontend-mentor.svg" />
-              </li>
-              <li>
-                <img src="src/assets/images/icon-linkedin.svg" />
-              </li>
-              <li>
-                <img src="src/assets/images/icon-twitter.svg" />
-              </li>
+              {<li><a></a></li>}
             </ul>
           </div>
         </div>

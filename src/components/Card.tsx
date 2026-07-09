@@ -6,14 +6,14 @@ type CardProps = {
 
 export const Card = ({ project }: CardProps) => {
   return (
-    <div className="flex flex-col gap-2">
+    <article className="flex flex-col gap-2">
       <img src={project.image} alt={project.title} />
-      <h1>{project.title}</h1>
-      <ul>
+      <h3 className="text-heading-m">{project.title}</h3>
+      <ul className="flex flex-row gap-3">
         {project.skills.map((skill) => (
           <li key={skill}>{skill}</li>
         ))}
       </ul>
-    </div>
+    </article>
   );
 };

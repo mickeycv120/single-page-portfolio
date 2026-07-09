@@ -39,10 +39,6 @@
         @apply font-space-grotesk text-body-l text-white bg-dark box-border;
     }
 
-    h1 {
-        @apply text-heading-xl font-bold;
-    }
-
     p {
         @apply text-body-l text-gray;
     }
@@ -52,6 +48,14 @@
     }
 
     button:hover {
+        @apply text-green;
+    }
+
+    a {
+        @apply text-white;
+    }
+
+    a:hover {
         @apply text-green;
     }
 }
