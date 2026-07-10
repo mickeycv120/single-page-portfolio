@@ -3,7 +3,7 @@ import { data } from "../constants/projects";
 
 export const Projects = () => {
   return (
-    <section className="">
+    <section className="py-22">
       <div className="flex flex-row items-center justify-between mb-16">
         <h2 className="text-heading-xl">Projects</h2>
         <button>CONTACT ME</button>

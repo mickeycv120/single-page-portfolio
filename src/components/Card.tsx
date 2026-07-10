@@ -9,8 +9,8 @@ export const Card = ({ project }: CardProps) => {
     <article className="flex flex-col gap-2">
       <div className="relative inset-0 overflow-hidden">
         <div className="flex flex-col gap-4 items-center justify-center absolute w-full h-full bg-black/80 opacity-0 hover:opacity-100">
-          <button>VIEW PROJECT</button>
-          <button>VIEW CODE</button>
+          <button className="cursor-pointer">VIEW PROJECT</button>
+          <button className="cursor-pointer">VIEW CODE</button>
         </div>
         <img className="w-full h-auto block" src={project.image} alt={project.title} />
       </div>
