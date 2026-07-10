@@ -4,7 +4,7 @@ import { Form } from "../components/Form";
 export const Contact = () => {
   return (
     <>
-      <section className="relative bg-dark-gray pt-21">
+      <section className="relative bg-dark-gray pt-18 pb-7">
         <div className="max-w-277.5 grid grid-cols-2 gap-55 mx-auto">
 
           <div className="flex flex-col col-span-1 gap-7">
@@ -18,7 +18,7 @@ export const Contact = () => {
             </div>
           </div>
 
-          <div className="absolute left-0 bottom-8">
+          <div className="absolute left-0 bottom-0 ">
             <img
               src="src/assets/images/pattern-rings.svg"
               alt="ring"
@@ -35,8 +35,8 @@ export const Contact = () => {
         </div>
       </section>
 
-      <footer className="bg-dark-gray py-8">
-        <div className="border-t">
+      <footer className="bg-dark-gray pb-20 pt-10">
+        <div className="border-t mx-auto max-w-277.5">
           <div className="flex justify-between mt-10">
             <a href="#" className="leading-8 text-[32px]">
               adamkeyes
