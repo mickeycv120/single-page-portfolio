@@ -34,9 +34,18 @@
 }
 
 @layer base {
-    body,
+
+    ::after,
+    ::before {
+        box-sizing: border-box;
+    }
+
     html {
-        @apply font-space-grotesk text-body-l text-white bg-dark box-border;
+        @apply font-space-grotesk bg-dark;
+    }
+
+    body {
+        @apply text-body-l text-white bg-dark;
     }
 
     p {

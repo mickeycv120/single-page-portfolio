@@ -4,20 +4,19 @@ import { Projects } from "./sections/Projects";
 
 function App() {
   return (
-    <main className="w-screen">
-      <div className="px-30">
+    <div className="overflow-x-hidden">
+      <div className="max-w-277.5 mx-auto">
         <Projects />
+        <div className="hidden">
+          adamkeyes Nice to meet you! I'm Adam Keyes. Based in the UK, I'm a
+          front-end developer passionate about building accessible web apps that
+          users love. Contact me HTML 4 Years Experience CSS 4 Years Experience
+          JavaScript 4 Years Experience Accessibility 4 Years Experience React 3
+          Years Experience Sass 3 Years Experience
+        </div>
       </div>
-      <div className="hidden">
-        adamkeyes Nice to meet you! I'm Adam Keyes. Based in the UK, I'm a
-        front-end developer passionate about building accessible web apps that
-        users love. Contact me HTML 4 Years Experience CSS 4 Years Experience
-        JavaScript 4 Years Experience Accessibility 4 Years Experience React 3
-        Years Experience Sass 3 Years Experience
-      </div>
-
       <Contact />
-    </main>
+    </div>
   );
 }
 
